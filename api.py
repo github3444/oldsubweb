@@ -63,35 +63,35 @@ def basic():
                     pass
                 if tool == 'clash':
                         CustomGroupvmess = '{ip}/sub?target=clash&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=clash&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=clash&url={sub}'.format(sub=str(sub)) 
                         return render_template('clash.html',sub = s,custom="未填写",api=CustomGroupvmess,api2=api2)
                 if tool == 'clashr':
                         CustomGroupvmess = '{ip}/sub?target=clashr&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=clashr&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=clashr&url={sub}'.format(sub=str(sub)) 
                         return render_template('clashr.html',sub = s,custom="未填写",api=CustomGroupvmess,api2=api2)    
                 if tool == 'clashnode':
                         CustomGroupvmess = '{ip}/sub?target=clashr&list=true&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=clashr&list=true&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=clashr&list=true&url={sub}'.format(sub=str(sub)) 
                         return render_template('clashr.html',sub = s,custom="未填写",api=CustomGroupvmess,api2=api2)                                            
                 if tool == 'surge':
                         CustomGroupvmess = '{ip}/sub?target=surge&url={sub}&ver=4'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=surge&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=surge&url={sub}'.format(sub=str(sub)) 
                         return render_template('surge.html',sub = s,custom="默认为surge4，参数为为ver=4。",api=CustomGroupvmess,api2=api2)
                 if tool == 'mellow':
                         CustomGroupvmess = '{ip}/sub?target=mellow&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=mellow&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=mellow&url={sub}'.format(sub=str(sub)) 
                         return render_template('mellow.html',sub = s,custom="未填写",api=CustomGroupvmess,api2=api2)
                 if tool == 'surfboard':
                         CustomGroupvmess = '{ip}/sub?target=surfboard&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=surfboard&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=surfboard&url={sub}'.format(sub=str(sub)) 
                         return render_template('surfboard.html',sub = s,custom="未填写",api=CustomGroupvmess,api2=api2)
                 if tool == 'qxnode':
                         CustomGroupvmess = '{ip}/sub?target=quanx&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=quanx&url={sub}'.format(sub=str(sub))
+                        api2 = 'https://api.wateraini.top/sub?target=quanx&url={sub}'.format(sub=str(sub))
                         return render_template('qxnode.html',sub = s,custom="未填写",api=CustomGroupvmess,api2=api2)            
                 if tool == 'surnode':
                         CustomGroupvmess = '{ip}/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(sub=str(sub))
+                        api2 = 'https://api.wateraini.top/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(sub=str(sub))
                         return render_template('surgenode.html',sub = s,custom="默认为surge4，参数为为ver=4。默认udp=true,tfo=true",api=CustomGroupvmess,api2=api2)                                 
                 else:
                     return render_template('basic.html')    
@@ -139,31 +139,31 @@ def customgroup():
                
                 if tool == 'clash':
                         CustomGroupvmess = '{ip}/sub?target=clash&url={sub}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups)
-                        api2 = 'https://gfwsb.114514.best/sub?target=clash&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=clash&url={sub}'.format(sub=str(sub)) 
                         return render_template('clash.html',sub = s,custom=n+c+method+'  备用暂时不支持',api=CustomGroupvmess,api2=api2)
                 if tool == 'clashr':
                         CustomGroupvmess = '{ip}/sub?target=clashr&url={sub}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups)
-                        api2 = 'https://gfwsb.114514.best/sub?target=clashr&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=clashr&url={sub}'.format(sub=str(sub)) 
                         return render_template('clashr.html',sub = s,custom=n+c+method+'  备用暂时不支持',api=CustomGroupvmess,api2=api2)                       
                 if tool == 'surge':
                         CustomGroupvmess = '{ip}/sub?target=surge&url={sub}&groups={groups}&ver=4'.format(ip=api.aff.subip,sub=str(sub),groups=groups)
-                        api2 = 'https://gfwsb.114514.best/sub?target=surge&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=surge&url={sub}'.format(sub=str(sub)) 
                         return render_template('surge.html',sub = s,custom=n+c+method+'\n备用暂时不支持\n'+'默认为surge4，参数为为ver=4。',api=CustomGroupvmess,api2=api2)
                 if tool == 'mellow':
                         CustomGroupvmess = '{ip}/sub?target=mellow&url={sub}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups)
-                        api2 = 'https://gfwsb.114514.best/sub?target=mellow&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=mellow&url={sub}'.format(sub=str(sub)) 
                         return render_template('mellow.html',sub = s,custom=n+c+method+'  备用暂时不支持',api=CustomGroupvmess,api2=api2)
                 if tool == 'surfboard':
                         CustomGroupvmess = '{ip}/sub?target=surfboard&url={sub}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups)
-                        api2 = 'https://gfwsb.114514.best/sub?target=surfboard&url={sub}'.format(sub=str(sub)) 
+                        api2 = 'https://api.wateraini.top/sub?target=surfboard&url={sub}'.format(sub=str(sub)) 
                         return render_template('surfboard.html',sub = s,custom=n+c+method+'  备用暂时不支持',api=CustomGroupvmess,api2=api2)
                 if tool == 'qxnode':
                         CustomGroupvmess = '{ip}/sub?target=quanx&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=quanx&url={sub}'.format(sub=str(sub))
+                        api2 = 'https://api.wateraini.top/sub?target=quanx&url={sub}'.format(sub=str(sub))
                         return render_template('qxnode.html',sub = s,custom="qx-node 暂不支持客制化",api=CustomGroupvmess,api2=api2)            
                 if tool == 'surnode':
                         CustomGroupvmess = '{ip}/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(sub=str(sub))
+                        api2 = 'https://api.wateraini.top/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(sub=str(sub))
                         return render_template('surgenode.html',sub = s,custom="默认为surge4，参数为为ver=4。默认udp=true,tfo=true",api=CustomGroupvmess,api2=api2)                                  
                 else:
                     return render_template('index.html')    
@@ -198,31 +198,31 @@ def inigroup():
                 groups = str(safe_base64_encode(ini1[1])).split('\'')[1]               
                 if tool == 'clash':
                         CustomGroupvmess = '{ip}/sub?target=clash&url={sub}&ruleset={rulesets}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups,rulesets=rulesets)
-                        api2 = 'https://gfwsb.114514.best/sub?target=clash&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
+                        api2 = 'https://api.wateraini.top/sub?target=clash&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
                         return render_template('clash.html',sub = s,custom=ini,api=CustomGroupvmess,api2=api2)
                 if tool == 'clashr':
                         CustomGroupvmess = '{ip}/sub?target=clashr&url={sub}&ruleset={rulesets}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups,rulesets=rulesets)
-                        api2 = 'https://gfwsb.114514.best/sub?target=clashr&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
+                        api2 = 'https://api.wateraini.top/sub?target=clashr&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
                         return render_template('clashr.html',sub = s,custom=ini,api=CustomGroupvmess,api2=api2)
                 if tool == 'surge':
                         CustomGroupvmess = '{ip}/sub?target=surge&url={sub}&ruleset={rulesets}&groups={groups}&ver=4'.format(ip=api.aff.subip,sub=str(sub),groups=groups,rulesets=rulesets)
-                        api2 = 'https://gfwsb.114514.best/sub?target=surge&url={sub}&ruleset={rulesets}&groups={groups}&ver=4'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
+                        api2 = 'https://api.wateraini.top/sub?target=surge&url={sub}&ruleset={rulesets}&groups={groups}&ver=4'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
                         return render_template('surge.html',sub = s,custom=ini+'\n默认为surge4，参数为为ver=4。',api=CustomGroupvmess,api2=api2)
                 if tool == 'mellow':
                         CustomGroupvmess = '{ip}/sub?target=mellow&url={sub}&ruleset={rulesets}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups,rulesets=rulesets)
-                        api2 = 'https://gfwsb.114514.best/sub?target=mellow&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
+                        api2 = 'https://api.wateraini.top/sub?target=mellow&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
                         return render_template('mellow.html',sub = s,custom=ini,api=CustomGroupvmess,api2=api2)
                 if tool == 'surfboard':
                         CustomGroupvmess = '{ip}/sub?target=surfboard&url={sub}&ruleset={rulesets}&groups={groups}'.format(ip=api.aff.subip,sub=str(sub),groups=groups,rulesets=rulesets)
-                        api2 = 'https://gfwsb.114514.best/sub?target=surfboard&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
+                        api2 = 'https://api.wateraini.top/sub?target=surfboard&url={sub}&ruleset={rulesets}&groups={groups}'.format(sub=str(sub),groups=groups,rulesets=rulesets) 
                         return render_template('surfboard.html',sub = s,custom=ini,api=CustomGroupvmess,api2=api2)
                 if tool == 'qxnode':
                         CustomGroupvmess = '{ip}/sub?target=quanx&url={sub}'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=quanx&url={sub}'.format(sub=str(sub))
+                        api2 = 'https://api.wateraini.top/sub?target=quanx&url={sub}'.format(sub=str(sub))
                         return render_template('qxnode.html',sub = s,custom="QuanX Node List 不支持客制化 ",api=CustomGroupvmess,api2=api2)            
                 if tool == 'surnode':
                         CustomGroupvmess = '{ip}/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(ip=api.aff.subip,sub=str(sub))
-                        api2 = 'https://gfwsb.114514.best/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(sub=str(sub))
+                        api2 = 'https://api.wateraini.top/sub?target=surge&url={sub}&ver=4&list=true&udp=true&tfo=true'.format(sub=str(sub))
                         return render_template('surgenode.html',sub = s,custom="默认为surge4，参数为为ver=4。默认udp=true,tfo=true",api=CustomGroupvmess,api2=api2)                                  
                 else:
                     return render_template('ini.html')    
